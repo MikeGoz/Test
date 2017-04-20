@@ -1,0 +1,430 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic);
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,900");
+
+body {
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+}
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+/* CLEARFIX -----------------------------------------------------*/
+.row:before,
+.row:after {
+    content: " "; 
+    display: table; 
+    clear: both;
+}
+/* HEADER ------------------------------------------------------*/
+header {
+	height: 65px;
+	background-color: black; 
+}
+header img {
+	margin-left: 30px;
+	padding: 10px 0;
+}
+header ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  	float: right;
+}
+header li {
+  	display: inline-block;
+}
+.home_button {
+	color: #63CFF2;
+}
+header a {
+  line-height: 65px;
+  padding: 0 20px;
+  display: block;
+  color: #fff;
+  font-size: 13px;
+  text-decoration: none;
+  text-transform: uppercase;  
+}
+header a:hover {
+    color: #63CFF2;
+}
+header img {
+	width: 60px;
+	height: 50px;
+}
+/* SECTION 1 ----------------------------------------------------*/
+.section_1 {
+	height: 300px;
+	background: url(https://static.pexels.com/photos/340901/pexels-photo-340901.jpeg) 10% 45%;
+	background-size: cover;
+}
+.slogan {
+	float: right;
+	padding: 20px;
+	width: 500px;
+	max-width: 800px;
+	line-height: 10px;
+	background: rgba(0, 0, 0, 0.3);
+	margin-top: 50px;
+	color: white;
+}
+.slogan h1:first-of-type {
+	font-weight: 200;	
+} 
+/* SECTION 2 ---------------------------------------------------*/
+.section_2 {
+	text-align: center;
+	float: left;
+}
+.section_2 >.container {
+	margin: 50px auto;
+	margin-left: 30%;
+}
+.section_2 p {
+	font-size: 12px;
+	color: grey;
+}
+.icon_3 {
+	float: left;
+	margin-left: 15px;
+}
+.section_2 button {
+	font-size: 50px;
+}	
+.section_2 .icon_3:hover i {
+	color: #005BB7;
+	transform: scale(1.07,1.07);
+	transition: .4s;
+}
+/* SECTION 3 --------------------------------------------------*/
+.section_3 {
+	background-color: #100E18;
+	text-align: center;
+	float: left;
+	width: 100%;
+	padding-bottom: 20px;
+}
+.section_3 h1 {
+	font-weight: bolder;
+	color: #005BB7;
+}
+.section_3 h4 {
+	line-height: 3px;
+	color: white;
+	font-size: 15px;
+}
+/* SECTION 4 -------------------------------------------------*/
+.section_4 {
+	text-align: center;
+	line-height: 250px;
+	font-size: 30px;
+}
+.section_4 >.container {
+	margin-left: 0 auto;
+}
+.photo {
+	float: left;
+	position: relative;
+}
+.section_4 .layer i{
+	opacity: 0;
+}
+.section_4 .photo:hover .layer{
+	background-color: rgba(0,0,0, 0.7);
+	transition: 0.5s;
+}
+.section_4 .photo:hover .layer i{
+	opacity: .9;
+	transition: 1s;
+	color: white;
+}
+.photo_1 {
+	background-image: url(https://static.pexels.com/photos/24978/pexels-photo.jpg);
+	background-size: cover;
+}
+.photo_2 {
+	background-image: url(https://static.pexels.com/photos/107956/pexels-photo-107956.jpeg);
+	background-size: cover;
+}
+.photo_3 {
+	background-image: url(https://static.pexels.com/photos/2159/flight-sky-earth-space.jpg);
+	background-size: cover;
+}
+.photo_4 {
+	background-image: url(https://static.pexels.com/photos/332330/pexels-photo-332330.jpeg);
+	background-size: cover;
+}
+.photo_5 {
+	background-image: url(https://static.pexels.com/photos/92976/pexels-photo-92976.jpeg);
+	background-size: cover;
+}
+.photo_6 {
+	background-image: url(https://static.pexels.com/photos/220201/pexels-photo-220201.jpeg);
+	background-size: cover;
+}
+.photo_7 {
+	background-image: url(https://static.pexels.com/photos/87442/galaxy-ngc-4594-m104-h1-43-87442.jpeg);
+	background-size: cover;
+}
+/* SECTION 5 -----------------------------------------------------*/
+.section_5 {
+	text-align: center;
+}	
+.section_5 >.container {
+	margin: 50px auto;
+	text-align: center;
+}
+[class*="col-"] {
+	float: left;
+}
+.round {
+	margin: 0 auto;
+	width: 150px;
+	height: 150px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 50%;
+	background: #100E18;
+	background-size: contain;
+}
+.round h1 {
+	line-height: 50px;
+	color: white;
+	font-size: 20px;
+}
+.round p {
+	line-height: 1px;
+	color: #100E18;
+}
+.round:hover p {
+	margin-left: 5px;
+	color: red;
+	transition: 1s;
+	font-size: 20px;
+	font-weight: 600;
+}
+.round:hover h1 {
+	color: black;
+	transition: 1s;
+}
+/* SECTION 6 ---------------------------------------------------------*/
+.section_6 {
+	height: 300px;
+	background: black;
+	background-size: cover;
+	display: block;
+  	position: relative;
+  	color: white;
+}
+.section_6 img {
+	width: 200px;
+	height: 200px;
+	margin-left: 50px;
+	margin-top: 50px;
+	overflow: hidden;
+	display: block;
+	position: absolute; 
+}
+.section_6 .right {
+	float: right;
+}
+.section_6 h2 {
+	padding: 20px;
+}
+.section_6 p:last-of-type {
+	margin-left: 20px;
+}
+/* SECTION 7 ---------------------------------------------------------*/
+.section_7 .row .col-3 {
+	float: left;
+	margin: 0 auto;
+	text-align: center;
+	text-transform: uppercase;  
+}
+.section_7 .row .col-3 h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 80px;
+	font-weight: 800;
+	margin-bottom: 0;
+	color: #313332;
+}
+.section_7 .row .col-3 p {
+	font-size: 25px;
+	color: #00C7E8;
+}
+/* SECTION 8-------------------------------------------------------- */
+.section_8 {
+	background-color: #313332;
+	color: white;
+}
+.section_8 [class*="col-"] {
+	float: left;
+	text-align: left;
+}	
+.section_8 p {
+	text-align: justify;	
+}
+.column_1 p {
+	padding-right: 60px;	
+}
+.column_2 h4, p {
+	margin-top: 0;	
+}
+.section_8 .col-3 {
+	padding-left: 0;
+}
+.section_8 .col-4 {
+	padding: 40px 0 40px;
+}
+.media_icons a {
+	font-size: 35px;
+	padding: 4px 10px;
+	color: #fff;
+	background-color: #005BB7;
+	margin: 3px;
+	border-radius: 5px;
+}
+.media_icons a:hover {
+	background-color: black;
+	transition: .5s; 
+}
+.footer {
+	height: 70px;
+	line-height: 70px;
+	background-color: black;
+	color: #fff;
+	padding: 10px;
+	font-size: 15px;
+}
+.footer p {
+	text-align: center;
+}
+/* GRID ------------------------------------------------------------ */
+.col-0 {width: 0}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* MEDIA QUARIES  ------------------ (mobile) ------------------*/
+@media (max-width: 768px) {
+/* HEADER ------------------------------------------------------*/
+header li {
+  	display: block;
+}
+/* SECTION 1 ---------------------------------------------------*/
+.slogan {
+	float: left;
+	padding: 20px;
+	width: calc(100vw - 170px);
+	font-size: 10px;
+}
+/* SECTION 2 ---------------------------------------------------*/
+.section_2 >.container {
+	margin: 60px auto;
+	margin-left: 0;
+	margin-right: 30px;
+}
+.section_2 button {
+	font-size: 70px;
+}	
+/* SECTION 3 ---------------------------------------------------*/
+.section_3 h1 {
+	font-size: 15px;
+}
+.section_3 h4 {
+	line-height: 4px;
+	color: white;
+	font-size: 10px;
+}
+/* SECTION 4 ---------------------------------------------------*/
+.section_4 .layer i{
+	opacity: 0.4;
+}
+.section_4 .photo:hover .layer{
+	background-color: rgba(0,0,0,0);
+	transition: none;
+}
+.section_4 .photo:hover .layer i{
+	opacity: .9;
+	transition: 1s;
+	color: black;
+}
+/* SECTION 5 ---------------------------------------------------*/
+.round p {
+	color: white;
+}
+/* SECTION 6 ---------------------------------------------------*/
+.section_6 {
+	height: 60vh;
+	position: relative;
+	padding: 20px;
+ }
+.section_6 img {
+	width: 100px;
+	height: 100px;
+	margin-left: 30px;
+	margin-top: 10px;
+	overflow: hidden;
+	display: block;
+	position: relative; 
+}
+.section_6 .right {
+	float: none;
+	margin-right: 40px;
+	font-size: 0.8em;
+}
+.section_6 p:last-of-type {
+	margin-left: 10px;
+	margin-right: 40px;
+}
+/* SECTION 7 ---------------------------------------------------*/
+.section_7 {
+	margin-top: none;
+}
+.section_7 .row .col-3 h2 {
+	font-size: 70px;
+	font-weight: 700;
+}
+/* SECTION 8 ---------------------------------------------------*/
+.section_8 [class*="col-"] {
+	margin-left: 20px;
+}	
+.column_1 p {
+	padding-right: none;
+}
+.section_8 p {
+	padding-right: 30px;
+}
+.section_8 .col-4 {
+	padding: 10px 0 0;
+}
+.footer {
+	margin-top: 40px;
+}
+.footer p {
+	text-align: center;
+}
+/* Grid for mobile */
+.col-s-1 {width: 8.33%;}
+.col-s-2 {width: 16.66%;}
+.col-s-3 {width: 25%;}
+.col-s-4 {width: 33.33%;}
+.col-s-5 {width: 41.66%;}
+.col-s-6 {width: 50%;}
+.col-s-7 {width: 58.33%;}
+.col-s-8 {width: 66.66%;}
+.col-s-9 {width: 75%;}
+.col-s-10 {width: 83.33%;}
+.col-s-11 {width: 91.66%;}
+.col-s-12 {width: 100%;}
+}
